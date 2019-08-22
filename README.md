@@ -1,24 +1,5 @@
-# README
+[![Build Status](https://github.com/jarydkrish/attach-in-model-callbacks/workflows/Ruby/badge.svg)](https://github.com/jarydkrish/attach-in-model-callbacks/actions)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example of ActiveStorage in Rails 6. There's an endless loop caused by saving an attachment in an ActiveModel callback.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please review the [User Model](app/models/user.rb), and it's corresponding [test](test/models/user_test.rb)
